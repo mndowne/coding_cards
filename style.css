@@ -1,0 +1,11 @@
+#start {
+    background: rgb(20,220,30);
+    height: 80px;
+    width: 300px;
+}
+
+.noteCard {
+    background: rgb(20,220,230);
+    height: 180px;
+    width: 360px;
+}

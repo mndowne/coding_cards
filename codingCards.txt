@@ -1,0 +1,42 @@
+OOP
+
+What is an Object
+    An object consists of both state and behavior, state is the elements (variables) and behavior is the methods(functions).
+
+What is a Class
+    A class is the blueprint from which objects are created. An object is an instance of a class.
+
+What is inheritance
+    In Object-oriented programming, classes often inherit commonly used state and behaviors from other classes. example is how Vehicles is the super class for Cars and Trucks, which both inherit Vehicles state and behaviors. 
+
+What is an Interface
+    In its most common form, an interface is a group of related methods with empty bodies. 
+
+What is a Package
+    A package is a name space that organizes a set of related classes and interfaces. Conceptually you can think of packages as being similar to different folders on your computer.
+
+What is software Architecture
+    Software architecture is defined to be the rules, heuristics, and patterns governing:
+        - Partitioning the problem and the system to be built into discrete pieces
+        - Techniques used to create interfaces between these pieces
+        - Techniques used to manage the overall structure and flow
+        - Techniques used to interface the system to its environment 
+        - Appropriate use of development and delivery approaches, techniques and tools.
+
+What is OOP
+    OOP is a design philosophy. It stands for Object Oriented Programming. OOP uses a different set of programming languages than old procedural programming languages. Everything in OOP is grouped as self sustainable "objects". Hence, you gain risibility by means of four main object-oriented programming concepts.
+
+What is Encapsulation
+    The encapsulation (or information hiding) is the inclusion-within a program object-of all the resources needed for the object to function, basically, the methods and the data. In OPP the encapsulation is mainly achieved by creating classes, the classes expose public methods and properties. The idea of encapsulation is to hide how a class does its business,while allowing other classes to make requests of it.
+
+What is Association
+    Association is a relationship between two classes. It allows one object instance to cause another to perform an action on its behalf. Association is the more general term that define the relationship between two classes, where as the aggregation and composition are relatively special.
+
+What is aggregation
+    Aggregation is a weak type of association with partial ownership. For an aggregation relationship, we use the term USES to imply a weak HAS-A relationship. This is weak compared to Composition. Then again, weak meaning the linked components of the aggregate may survive the aggregations life-cycle without the existence of their parent objects. For example, a school department USES teachers. Any teacher may belong to more than one department. And so, if a department ceases to exist, the teacher will still exist.
+
+What is Composition 
+    Composition is a strong type of Association with full ownership. This is strong compared to weak Aggregation. For a Composition relationship, we use the term OWNS to imply a strong HAS-A relationship. For example, a department OWNS courses, which means that the any course's life-cycle depends on the department's life-cycle. hence, if a department ceases to exist, the underlying courses will cease to exist as well.
+
+What is an Abstract class
+    Abstract classes, which declared with the abstract keyword, cannot be instantiated. It can only be used as a super-class for other classes that extend the abstract class.
